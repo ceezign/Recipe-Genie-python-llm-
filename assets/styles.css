@@ -1,0 +1,78 @@
+
+.stApp {
+    background: linear-gradient(135deg, #1e1f29 0%, #3a1c71 50%, #d76d77 100%) !important;
+    color: #f3f4f6;
+}
+
+/* Make main content readable and centered */
+.main {
+    background: transparent !important;
+}
+
+.block-container {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 12px;
+    padding: 25px;
+    backdrop-filter: blur(8px);
+    color: #ffffff !important;
+}
+
+/* Sidebar */
+div[data-testid="stSidebar"] {
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: #ffffff !important;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+/* Labels and text inputs */
+label, .stMarkdown, .stTextInput label {
+    color: #e8e8e8 !important;
+}
+
+/* Dropdowns */
+div[data-baseweb="select"] > div {
+    background-color: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+}
+
+/* Dropdown menu options */
+div[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+/* Text inputs */
+.stTextInput input {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: #ffffff !important;
+    border-radius: 8px;
+}
+
+/* 🔘 Buttons */
+.stButton button {
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    color: white !important;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6em 1.2em;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.stButton button:hover {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    transform: translateY(-2px);
+}
+
+/* Recipe cards or result boxes */
+div[data-testid="stMarkdownContainer"] p {
+    color: #f5f5f5 !important;
+    font-size: 1rem;
+}
